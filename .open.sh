@@ -8,11 +8,15 @@ case "$filetype" in
 		zathura "$1"
 	;;
 	#videos
+	*Matroska*)
+		mpv --fullscreen "$1"
+	
+	;;
 	*MP4*)
-		mpv "$1"
+		mpv --fullscreen "$1"
 	;;
 	*WebM*)
-		mpv "$1"
+		mpv --fullscreen "$1"
 	;;
 	#music
 	*Opus*)
@@ -21,6 +25,9 @@ case "$filetype" in
 	#images
 	*image*)	
 		feh -F "$1"
+	;;
+	*HTML*)
+		librewolf "$1"
 	;;
 	#base case (text document)
 	*)
