@@ -1,0 +1,4 @@
+https://go.dev/tour/list
+https://neetcode.io/practice
+https://github.com/pkivolowitz/asm_book
+https://www.nand2tetris.org/course
