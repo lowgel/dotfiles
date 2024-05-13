@@ -3,6 +3,10 @@
 filetype="$(file -b "$1")"
 
 case "$filetype" in
+	#executables files
+	*ELF*)
+		"$1"
+	;;
 	#documents
 	*PDF*)
 		zathura "$1"
@@ -31,7 +35,7 @@ case "$filetype" in
 	;;
 	#base case (text document)
 	*)
-		nvim "$1"
+		vim "$1"
 	;;
 esac
 
