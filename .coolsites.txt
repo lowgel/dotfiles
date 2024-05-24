@@ -4,4 +4,7 @@ https://github.com/pkivolowitz/asm_book
 https://www.nand2tetris.org/course
 https://chatgpt.com
 https://singlelogin.re
+https://www.hoppersroppers.org/roadmap/training/pwning.html
+https://academy.tcm-sec.com/p/practical-ethical-hacking-the-complete-course
+
 

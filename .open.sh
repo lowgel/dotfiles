@@ -7,6 +7,10 @@ case "$filetype" in
 	*ELF*)
 		"$1"
 	;;
+	#zip
+	*Zip*)
+		unzip "$1"
+	;;
 	#documents
 	*PDF*)
 		zathura "$1"
