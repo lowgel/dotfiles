@@ -28,7 +28,7 @@ case "$filetype" in
 	;;
 	#images
 	*image*)	
-		feh -F "$1"
+		feh --fullscreen --start-at "$1" 
 	;;
 	*HTML*)
 		librewolf "$1"
