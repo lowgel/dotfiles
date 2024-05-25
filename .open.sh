@@ -7,7 +7,10 @@ case "$filetype" in
 	*ELF*)
 		"$1"
 	;;
-	#zip
+	#compressed files
+	*gzip*)
+		tar -xvzf "$1"
+	;;
 	*Zip*)
 		unzip "$1"
 	;;
