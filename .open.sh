@@ -35,7 +35,10 @@ case "$filetype" in
 	;;
 	#images
 	*image*)	
-		feh --fullscreen --start-at "$1" 
+		feh --fullscreen --randomize --start-at "$1" 
+	;;
+	*PNG*)	
+		feh --fullscreen --randomize --start-at "$1" 
 	;;
 	*HTML*)
 		librewolf "$1"
